@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+๏ปฟusing System.Collections.Generic;
 using UnityEngine;
 
 public class Player : Character
@@ -73,13 +73,16 @@ public class Player : Character
 
         }
     }
-    //เพิ่มเติมฟังก์ชันการรักษาและรับความเสียหาย
+    //ร ยพร”รจรร ยตร”รยฟร‘ยงยกรฌยชร‘ยนยกร’รรร‘ยกรร’รกร…รรร‘ยบยครร’รร รร•รรร’ร
     public override void TakeDamage(int amount)
-    {
-        base.TakeDamage(amount);
+{
+    base.TakeDamage(amount);
+    if (GameManager.instance != null)
         GameManager.instance.UpdateHealthBar(health, maxHealth);
+    else
+        Debug.LogWarning("GameManager instance is null!");
+}
 
-    }
     public override void Heal(int amount)
     {
         base.Heal(amount);
