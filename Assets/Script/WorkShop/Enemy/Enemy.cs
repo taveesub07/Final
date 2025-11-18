@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Enemy : Character
 {
@@ -49,11 +49,15 @@ public class Enemy : Character
     public override void TakeDamage(int amount)
     {
         health -= amount;
+
         if (health <= 0)
         {
-            GameManager.instance.AddScore(10);
+            if (GameManager.instance != null)
+                GameManager.instance.AddScore(10);
+
             Destroy(gameObject);
-            
         }
     }
+
+
 }

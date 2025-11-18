@@ -12,20 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e876a6294a188e489fc15ecdd7a24b3, type: 3}
   m_Name: Quest03
   m_EditorClassIdentifier: 
-  questName: Spider problem
-  questDescription: Hunt spider and take thier web
+  questName: Slime Slayer
+  questDescription: Kill Slime  7
   objectives:
   - type: 0
-    targetDetail: {fileID: 11400000, guid: 8d8121d094904604f961bbc5e094f339, type: 2}
-    requiredAmount: 1
-    currentAmount: 0
-    isCompleted: 0
-  - type: 1
-    targetDetail: {fileID: 11400000, guid: 138faa10e9d44044fa81dd6d8daa39ba, type: 2}
-    requiredAmount: 1
+    targetID: Slime
+    requiredAmount: 7
     currentAmount: 0
     isCompleted: 0
   goldReward: 20
   expReward: 30
-  itemReward:
-  - {fileID: 11400000, guid: 7263aa3c740bc3c40a6fcb33687db581, type: 2}

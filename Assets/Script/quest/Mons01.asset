@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179ff9b72ea410746bb31ae31f08ae8b, type: 3}
   m_Name: Mons01
   m_EditorClassIdentifier: 
-  monsterName: Slime
+  monsterName: slime

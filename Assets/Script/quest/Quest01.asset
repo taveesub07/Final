@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e876a6294a188e489fc15ecdd7a24b3, type: 3}
   m_Name: Quest01
   m_EditorClassIdentifier: 
-  questName: Quest01
-  questDescription: Kill Slime
+  questName: Slime Slayer
+  questDescription: Kill Slime 1
   objectives:
   - type: 0
     targetID: Slime

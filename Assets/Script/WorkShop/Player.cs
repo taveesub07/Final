@@ -55,9 +55,9 @@ public class Player : Character
             var e = InFront as Idestoryable;
             if (e != null)
             {
-                e.TakeDamage(Damage);
-                Debug.Log($"{gameObject.name} attacks for {Damage} damage.");
+                e.TakeDamage(Damage); // นี่คือบรรทัด 58
             }
+
             _isAttacking = false;
         }
     }
